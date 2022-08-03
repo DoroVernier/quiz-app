@@ -1,6 +1,10 @@
 h1 {
     display: flex; 
-  justify-content: center; 
-    postion: relative; 
+    justify-content: center; 
+background: white; 
+border: 2px solid black; 
+padding: 2%; 
+margin: 0; 
+position: absolute; 
 
 }
