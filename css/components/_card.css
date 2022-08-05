@@ -1,0 +1,8 @@
+.card {
+    display: flex; 
+    flex-direction: column;
+}
+.question__icon {
+    height: 100px; 
+    width: 100px; 
+}

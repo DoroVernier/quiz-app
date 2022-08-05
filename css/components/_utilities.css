@@ -1,0 +1,8 @@
+.tags {
+    display: flex; 
+}
+
+.tags ul li {
+    list-style: none; 
+
+}
