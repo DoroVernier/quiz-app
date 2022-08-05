@@ -1,12 +1,13 @@
-* 
-::before
-::after{
+
+*{
     box-sizing: border-box;
+    margin: auto; 
 }
 
 body {
     display: flex; 
     flex-direction: column;
+    align-items: center; 
     font-family: 'VT323', monospace;
    
 }

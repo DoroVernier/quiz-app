@@ -1,8 +1,14 @@
 .tags {
     display: flex; 
 }
-
+.tags ul {
+    display: flex; 
+}
 .tags ul li {
     list-style: none; 
+    padding: 1rem; 
+}
 
+.footer li {
+    margin: 1rem; 
 }

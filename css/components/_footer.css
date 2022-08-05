@@ -1,0 +1,25 @@
+.nav {
+    display: flex; 
+    width: 350px;
+    position: relative; 
+}
+
+.nav__footer {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+    border: 2px solid black; 
+    padding: 0; 
+    margin-top: 2rem; 
+    _position: fixed; 
+    bottom: 0; 
+}
+
+@media screen and (min-width: 668px) {
+    .nav__footer {
+        width: 550px; 
+        height: 550px;
+        margin-top: 1rem; 
+    }
+}

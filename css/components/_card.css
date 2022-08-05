@@ -1,8 +1,26 @@
-.card {
+
+.main {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+}
+.main__card {
     display: flex; 
     flex-direction: column;
+    align-items: center;
+    width: 350px; 
+    height: 350px; 
+    border: 2px solid black; 
+    margin-top: 2rem;  
 }
-.question__icon {
-    height: 100px; 
-    width: 100px; 
+.main__card__icon {
+    height: 10%; 
+    width: 10%; 
+}
+@media screen and (min-width: 668px) {
+    .main__card {
+        width: 550px; 
+        height: 550px;
+        margin-top: 1rem; 
+    }   
 }
