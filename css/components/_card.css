@@ -7,11 +7,21 @@
 .main__card {
     display: flex; 
     flex-direction: column;
+    flex-wrap: wrap; 
     align-items: center;
     width: 350px; 
     height: 350px; 
     border: 2px solid black; 
-    margin-top: 2rem;  
+    margin-top: 1rem;  
+}
+.main__card p {
+    font-size: 2rem; 
+}
+.main__card__answer {
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    background: red; 
+    padding: 10px; 
 }
 .main__card__icon {
     height: 10%; 
@@ -21,6 +31,13 @@
     .main__card {
         width: 550px; 
         height: 550px;
-        margin-top: 1rem; 
+        margin-top: 2rem; 
+    }   
+}
+@media screen and (min-width: 1024px) {
+    .main__card {
+        width: 800px; 
+        height: 800px;
+        margin-top: 3rem; 
     }   
 }

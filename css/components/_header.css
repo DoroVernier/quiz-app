@@ -1,12 +1,13 @@
 .header {
-    width: 350px}
+    width: 350px;
+}
 
 h1 {
     text-align: center;
     background: white; 
     border: 2px solid black; 
     padding: 2%; 
-    margin: 0; 
+    margin: auto; 
   
 }
 @media screen and (min-width: 668px) {
