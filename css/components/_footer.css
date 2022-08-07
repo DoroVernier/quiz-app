@@ -21,17 +21,32 @@
     bottom: 0; 
 }
 
+.nav__footer__item {
+ height: 3rem; 
+   margin: 0; 
+   padding: 0 2rem; 
+}
+
+img {
+    height: 3rem; 
+}
+.current {
+    height: 4rem; 
+    background-color: rgb(157, 157, 157);
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+
 @media screen and (min-width: 668px) {
    .nav, .nav__footer {
         width: 550px; 
         height: 4rem;
         margin-top: 2rem; 
     }
-}
-@media screen and (min-width: 1024px) {
-   .nav, .nav__footer {
-        width: px; 
-        height: 5rem;
-        margin-top: 3rem; 
+    .nav__footer__item {
+        height: 4rem; 
+    }
+    img {
+        height: 4rem; 
     }
 }

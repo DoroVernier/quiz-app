@@ -1,11 +1,17 @@
 .tags {
     display: flex; 
     align-items: flex-start;
-    margin-left: 5px; 
+    position: absolute; 
+    bottom: 0.5rem; 
+    left: 0.5rem; 
+}
+.index {
+    margin-top: 6rem; 
 }
 .tags ul {
     display: flex; 
     padding: 0; 
+   
 }
 .tags ul li {
     list-style: none; 
@@ -16,22 +22,6 @@
     margin: 0.4rem; 
 }
 
-.nav__footer__item {   
-    display: flex; 
-    padding: 0 41px; 
-    align-items: center; 
-    margin: 0;
-    height: 3rem; 
-}
-.current {
-    background-color: rgb(157, 157, 157);
-    border-top: 2px solid black; 
-    border-bottom: 2px solid black; 
-}​
-
-.nav__footer__item img {
-    height: 3rem; 
-}
 
 @media screen and (min-width: 668px) {
    .tags {
@@ -42,12 +32,4 @@
     font-size: 1.2rem; 
     margin: 0.8rem; 
    }
-   .nav__footer__item {
-    justify-content: center;
-    padding: 0 60px; 
-    height: 5rem; 
-    }
-    .nav__footer__item img {
-        height: 4rem; 
-    }
 }

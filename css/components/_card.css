@@ -19,17 +19,21 @@
     margin-top: 2rem;  
     position: relative; 
 }
-.main__card p {
+.main__card__text {
     font-size: 2rem; 
     width: 250px; 
-   text-align: center; 
+    text-align: center; 
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
 }
 .main__card__answer {
     font-family: 'VT323', monospace;
     font-size: 1.5rem;
-    padding: 10px; 
     border: 2px inset black; 
+    padding: 10px; 
+    margin: 0.5rem; 
 }
+
 .main__card__icon:hover {
     color: rgba(255, 0, 174, 0.736); 
 }
@@ -37,8 +41,8 @@
     background: #FAFA37; 
 }
 .main__card__icon {
-    height: 10%; 
-    width: 10%; 
+    height: 15%; 
+    width: 15%; 
     position: absolute; 
     top: -10px; 
     right: 5px; 
@@ -53,12 +57,18 @@
     }  
     .main__card__answer {
         font-size: 3rem;
-        padding: 30px; 
         border: 2px solid black; 
+        padding: 20px; 
+        margin: 1rem; 
     } 
-    .main__card p {
+    .main__card__text {
         font-size: 4rem;
         width: 450px; 
+        margin-top: 4rem; 
+        margin-bottom: 2rem; 
+    }
+    .galaxy { font-size: 3rem; 
+
     }
     .main__card:first-child {
         margin-top: 8rem; 
