@@ -3,14 +3,16 @@
     width: 350px;
     height: 3rem; 
     position: relative; 
+    margin: 0; 
 }
 
 .nav__footer {
     list-style: none; 
     display: flex; 
     justify-content: space-between;
-    width: 100%; 
+    width: 350px; 
     height: 3rem; 
+    background-color: white;
     border: 2px solid black; 
     padding: 0; 
     margin-top: 1rem; 
@@ -19,18 +21,16 @@
 }
 
 @media screen and (min-width: 668px) {
-    .nav__footer {
+   .nav, .nav__footer {
         width: 550px; 
         height: 4rem;
         margin-top: 2rem; 
-        height: 4rem; 
     }
 }
 @media screen and (min-width: 1024px) {
-    .nav__footer {
-        width: 850px; 
+   .nav, .nav__footer {
+        width: px; 
         height: 5rem;
         margin-top: 3rem; 
-
     }
 }
