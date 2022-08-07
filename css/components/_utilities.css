@@ -15,8 +15,26 @@
     border: 2px solid black;
     margin: 0.4rem; 
 }
-.footer li {
-    margin: 1rem; 
+
+.nav__footer__item {   
+    display: flex; 
+    padding: 0 41px; 
+    align-items: center; 
+    margin: 0;
+    height: 3rem; 
+}
+.current {
+    background-color: rgb(157, 157, 157);
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+    ​path {
+        fill: blue;
+      }​
+
+.nav__footer__item img,
+.nav__footer__item svg {
+    height: 3rem; 
 }
 
 @media screen and (min-width: 668px) {
@@ -28,4 +46,14 @@
     font-size: 1.2rem; 
     margin: 0.8rem; 
    }
+   .nav__footer__item {
+    justify-content: center;
+    padding: 0 60px; 
+    height: 5rem; 
+}
+.nav__footer__item img,
+.nav__footer__item svg {
+    height: 4rem; 
+}
+
 }
