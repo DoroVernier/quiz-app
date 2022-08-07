@@ -22,11 +22,13 @@
 .main__card p {
     font-size: 2rem; 
     width: 250px; 
+   text-align: center; 
 }
 .main__card__answer {
     font-family: 'VT323', monospace;
     font-size: 1.5rem;
     padding: 10px; 
+    border: 2px inset black; 
 }
 .main__card__answer:hover {
     background: red; 
