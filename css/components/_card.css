@@ -30,8 +30,11 @@
     padding: 10px; 
     border: 2px inset black; 
 }
+.main__card__icon:hover {
+    color: rgba(255, 0, 174, 0.736); 
+}
 .main__card__answer:hover {
-    background: rgba(255, 0, 174, 0.736); 
+    background: #FAFA37; 
 }
 .main__card__icon {
     height: 10%; 
