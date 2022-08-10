@@ -14,15 +14,16 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./index.js" defer></script>
   </head>
 
   <body>
     <header class="header">
       <h1>Quiz-App</h1>
     </header>
-
+    <!--------------------------------------------FIRST CARD-------------------->
     <main class="main">
-      <section class="main__card">
+      <section class="main__card" data-js="card">
         <img
           class="main__card__icon"
           src="./images/bookmark black.svg"
@@ -30,14 +31,17 @@
           alt="bookmark icon"
         />
         <p class="main__card__question">Die Frage ist...?</p>
+       
         <input
           type="button"
           class="main__card__button"
           name="answer"
           value="Show Answer"
-        />
+          data-js="button"/>
 
-        <p class="main__card__answer hidden">Die Antwort ist 42.</p>
+        <p class="main__card__answer hidden" data-js="answer">
+          Die Antwort ist 42.
+        </p>
 
         <section class="tags index">
           <ul>
@@ -47,6 +51,8 @@
           </ul>
         </section>
       </section>
+
+      <!--------------------------------------------SECOND CARD-------------------->
 
       <section class="main__card">
         <img

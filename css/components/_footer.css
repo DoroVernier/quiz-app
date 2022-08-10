@@ -32,21 +32,20 @@ img {
 }
 .current {
   height: 3rem;
-  border: 4px solid #fafa37;
-  z-index: 5;
+  border: 7px dashed #fafa37;
 }
 
 @media screen and (min-width: 668px) {
   .nav,
   .nav__footer {
     width: 550px;
-    height: 4rem;
+    height: 4.2rem;
     margin-top: 2rem;
   }
   .nav__footer__item {
     height: 4rem;
   }
   img {
-    height: 4rem;
+    height: 3.6rem;
   }
 }
