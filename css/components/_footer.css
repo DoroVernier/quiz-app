@@ -12,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
   width: 350px;
-  height: 3rem;
+  height: 3.2rem;
   background-color: white;
   border: 2px solid black;
   padding: 0;
@@ -28,26 +28,24 @@
 }
 
 img {
-  height: 3rem;
+  height: 2.6rem;
 }
 .current {
   height: 3rem;
-  background-color: rgb(157, 157, 157);
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border: 7px dashed #fafa37;
 }
 
 @media screen and (min-width: 668px) {
   .nav,
   .nav__footer {
     width: 550px;
-    height: 4rem;
+    height: 4.2rem;
     margin-top: 2rem;
   }
   .nav__footer__item {
     height: 4rem;
   }
   img {
-    height: 4rem;
+    height: 3.6rem;
   }
 }

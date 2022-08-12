@@ -14,30 +14,46 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./index.js" type="module" defer></script>
   </head>
 
   <body>
     <header class="header">
       <h1>Quiz-App</h1>
     </header>
-
+    <!--------------------------------------------FIRST CARD-------------------->
     <main class="main">
-      <section class="main__card">
-        <img
+      <section class="main__card" data-js="card">
+
+        <button  data-js="notBookmarked" class="bookMarkButton">
+          <img
           class="main__card__icon"
-          src="./images/icons8-bookmark.svg"
-          fill="#000000"
+          src="./images/bookmark black.svg"
           alt="bookmark icon"
         />
-        <p class="main__card__question">Die Frage ist...?</p>
+      </button>
+
+        <button class="hidden bookMarkButton"
+          data-js="bookmarked">
+          <img  
+          class="main__card__icon-fav" 
+          src="./images/bookmark pink.svg" 
+          alt="bookmark-icon"/>
+        </button>
+
+        <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
         <input
           type="button"
           class="main__card__button"
           name="answer"
           value="Show Answer"
+          data-js="button"
         />
 
-        <p class="main__card__answer hidden">Die Antwort ist 42.</p>
+        <p class="main__card__answer hidden" data-js="answer">
+          Lorem, ipsum dolor.
+        </p>
 
         <section class="tags index">
           <ul>
@@ -48,55 +64,93 @@
         </section>
       </section>
 
-      <section class="main__card">
-        <img
-          class="main__card__icon"
-          src="./images/icons8-bookmark copy.svg"
-          alt="bookmark icon"
-        />
-        <p class="main__card__question">Lorem ipsum dolor, sit amet?</p>
-        <input
-          type="button"
-          class="main__card__button"
-          name="answer"
-          value="Show Answer"
-        />
+      <!--------------------------------------------SECOND CARD-------------------->
 
-        <p class="main__card__answer hidden">Die Antwort ist 42.</p>
-
-        <section class="tags">
-          <ul>
-            <li>#html</li>
-            <li>#flexbox</li>
-            <li>#css</li>
-          </ul>
+      <main class="main">
+        <section class="main__card" data-js="card">
+  
+          <button  data-js="notBookmarked" class="bookMarkButton">
+            <img
+            class="main__card__icon"
+            src="./images/bookmark black.svg"
+            alt="bookmark icon"
+          />
+        </button>
+  
+          <button class="hidden bookMarkButton"
+            data-js="bookmarked">
+            <img  
+            class="main__card__icon-fav" 
+            src="./images/bookmark pink.svg" 
+            alt="bookmark-icon"/>
+          </button>
+  
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+  
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+  
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+  
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
         </section>
-      </section>
 
-      <section class="main__card">
-        <img
-          class="main__card__icon"
-          src="./images/icons8-bookmark.svg"
-          alt="bookmark icon"
-        />
-        <p class="main__card__question">Die Frage ist...</p>
-        <input
-          type="button"
-          class="main__card__button"
-          name="answer"
-          value="Show Answer"
-        />
+      <!--------------------------------------------THIRD CARD-------------------->
 
-        <p class="main__card__answer hidden">Die Antwort ist 42.</p>
-
-        <section class="tags">
-          <ul>
-            <li>#html</li>
-            <li>#flexbox</li>
-            <li>#css</li>
-          </ul>
+      <main class="main">
+        <section class="main__card" data-js="card">
+  
+          <button  data-js="notBookmarked" class="bookMarkButton">
+            <img
+            class="main__card__icon"
+            src="./images/bookmark black.svg"
+            alt="bookmark icon"
+          />
+        </button>
+  
+          <button class="hidden bookMarkButton"
+            data-js="bookmarked">
+            <img  
+            class="main__card__icon-fav" 
+            src="./images/bookmark pink.svg" 
+            alt="bookmark-icon"/>
+          </button>
+  
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+  
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+  
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+  
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
         </section>
-      </section>
     </main>
 
     <footer>
@@ -110,7 +164,8 @@
 
           <li class="nav__footer__item">
             <a href="bookmarks.html"
-              ><img src="./images/icons8-bookmark.svg"" alt="Bookmark" /></a
+              ><img src="./images/bookmark pink outline.svg"" alt="Bookmark"
+              /></a
             >
           </li>
 
