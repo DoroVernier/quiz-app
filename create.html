@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Barlow+Semi+Condensed:wght@100;400&family=Major+Mono+Display&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./index.js" type="module" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>Quiz-App</h1>
+    </header>
+    <!--------------------------------------------FIRST CARD-------------------->
+    <main class="main">
+      <section class="main__card" data-js="card">
+
+        <button  data-js="notBookmarked" class="bookMarkButton">
+          <img
+          class="main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"
+        />
+      </button>
+
+        <button class="hidden bookMarkButton"
+          data-js="bookmarked">
+          <img  
+          class="main__card__icon-fav" 
+          src="./images/bookmark pink.svg" 
+          alt="bookmark-icon"/>
+        </button>
+
+        <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+        <input
+          type="button"
+          class="main__card__button"
+          name="answer"
+          value="Show Answer"
+          data-js="button"
+        />
+
+        <p class="main__card__answer hidden" data-js="answer">
+          Lorem, ipsum dolor.
+        </p>
+
+        <section class="tags index">
+          <ul>
+            <li>#html</li>
+            <li>#flexbox</li>
+            <li>#css</li>
+          </ul>
+        </section>
+      </section>
+
+      <!--------------------------------------------SECOND CARD-------------------->
+
+      <main class="main">
+        <section class="main__card" data-js="card">
+  
+          <button  data-js="notBookmarked" class="bookMarkButton">
+            <img
+            class="main__card__icon"
+            src="./images/bookmark black.svg"
+            alt="bookmark icon"
+          />
+        </button>
+  
+          <button class="hidden bookMarkButton"
+            data-js="bookmarked">
+            <img  
+            class="main__card__icon-fav" 
+            src="./images/bookmark pink.svg" 
+            alt="bookmark-icon"/>
+          </button>
+  
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+  
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+  
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+  
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
+        </section>
+
+      <!--------------------------------------------THIRD CARD-------------------->
+
+      <main class="main">
+        <section class="main__card" data-js="card">
+  
+          <button  data-js="notBookmarked" class="bookMarkButton">
+            <img
+            class="main__card__icon"
+            src="./images/bookmark black.svg"
+            alt="bookmark icon"
+          />
+        </button>
+  
+          <button class="hidden bookMarkButton"
+            data-js="bookmarked">
+            <img  
+            class="main__card__icon-fav" 
+            src="./images/bookmark pink.svg" 
+            alt="bookmark-icon"/>
+          </button>
+  
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+  
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+  
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+  
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
+        </section>
+    </main>
+
+    <footer>
+      <nav class="nav">
+        <ul class="nav__footer">
+          <li class="nav__footer__item current">
+            <a href="index.html"
+              ><img src="./images/icons8-home.svg" alt="Home"
+            /></a>
+          </li>
+
+          <li class="nav__footer__item">
+            <a href="bookmarks.html"
+              ><img src="./images/bookmark pink outline.svg"" alt="Bookmark"
+              /></a
+            >
+          </li>
+
+          <li class="nav__footer__item">
+            <a href="user.html"
+              ><img src="./images/icons8-user-male.svg" alt="User"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
