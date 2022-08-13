@@ -33,9 +33,7 @@
   margin: 0.5rem;
   cursor: pointer;
 }
-.hidden {
-  visibility: hidden;
-}
+
 .main-card-button:active + .hidden {
   visibility: visible;
 }
@@ -51,10 +49,12 @@
   width: 100%;
   background-color: white;
 }
+
 .main__card__icon-fav {
   height: 100%;
   width: 100%;
 }
+
 .bookMarkButton {
   border: none;
   background-color: transparent;
