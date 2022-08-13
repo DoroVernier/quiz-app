@@ -18,19 +18,24 @@
   </head>
 
   <body>
+
     <header class="header">
       <h1>Quiz-App</h1>
     </header>
-    <!--------------------------------------------FIRST CARD-------------------->
+
     <main class="main">
+    <!--------------------------------------------FIRST CARD-------------------->
+   
       <section class="main__card" data-js="card">
 
-        <button  data-js="notBookmarked" class="bookMarkButton">
+        <!------BOOKMARK-BUTTON------->
+
+        <button  class="bookMarkButton"
+          data-js="notBookmarked">        
           <img
           class="main__card__icon"
           src="./images/bookmark black.svg"
-          alt="bookmark icon"
-        />
+          alt="bookmark icon" />
       </button>
 
         <button class="hidden bookMarkButton"
@@ -40,6 +45,8 @@
           src="./images/bookmark pink.svg" 
           alt="bookmark-icon"/>
         </button>
+
+        <!------QUESTION------->
 
         <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
 
@@ -51,9 +58,14 @@
           data-js="button"
         />
 
+        <!------ANSWER------->
+
+
         <p class="main__card__answer hidden" data-js="answer">
           Lorem, ipsum dolor.
         </p>
+
+        <!------TAGS------->
 
         <section class="tags index">
           <ul>
@@ -107,10 +119,10 @@
             </ul>
           </section>
         </section>
-
+ <main class="main">
       <!--------------------------------------------THIRD CARD-------------------->
 
-      <main class="main">
+     
         <section class="main__card" data-js="card">
   
           <button  data-js="notBookmarked" class="bookMarkButton">
@@ -121,7 +133,7 @@
           />
         </button>
   
-          <button class="hidden bookMarkButton"
+          <button class="bookMarkButton hidden"
             data-js="bookmarked">
             <img  
             class="main__card__icon-fav" 
