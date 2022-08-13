@@ -1,21 +1,21 @@
 export function toggleAnswer() {
   const cards = document.querySelectorAll('[data-js="card"]');
   cards.forEach((card) => {
-    const button = card.querySelector('[data-js="button"]');
+    const answerButton = card.querySelector('[data-js="answerButton"]');
     const answer = card.querySelector("[data-js=answer]");
-    button.addEventListener("click", () => {
+    answerButton.addEventListener("click", () => {
       answer.classList.toggle("hidden");
     });
   });
 }
 export function toggleButton() {
-  const buttons = document.querySelectorAll('[data-js="button"]');
+  const buttons = document.querySelectorAll('[data-js="answerButton"]');
   buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      if (button.value === "Show Answer") {
-        button.value = "Hide Answer";
+    answerButton.addEventListener("click", () => {
+      if (anserButton.value === "Show Answer") {
+        answerButton.value = "Hide Answer";
       } else {
-        button.value = "Show Answer";
+        answerButton.value = "Show Answer";
       }
     });
   });

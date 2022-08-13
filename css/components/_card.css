@@ -7,6 +7,9 @@
 .main__card:first-child {
   margin-top: 4rem;
 }
+.main__card:last-child {
+  margin-bottom: 4rem;
+}
 .main__card {
   display: flex;
   flex-direction: column;
@@ -61,7 +64,7 @@
   position: absolute;
   height: 50px;
   width: 50px;
-  top: -20px;
+  top: -30px;
   right: 5px;
 }
 

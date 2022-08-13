@@ -18,99 +18,55 @@
   </head>
 
   <body>
-
     <header class="header">
       <h1>Quiz-App</h1>
     </header>
 
     <main class="main">
-    <!--------------------------------------------FIRST CARD-------------------->
-   
-      <section class="main__card" data-js="card">
+      <!-------------HOMEPAGE----------------------------------->
 
-        <!------BOOKMARK-BUTTON------->
+      <div class="content" data-js="home">
+        <!--------------------------------------------FIRST CARD-------------------->
 
-        <button  class="bookMarkButton"
-          data-js="notBookmarked">        
-          <img
-          class="main__card__icon"
-          src="./images/bookmark black.svg"
-          alt="bookmark icon" />
-      </button>
-
-        <button class="hidden bookMarkButton"
-          data-js="bookmarked">
-          <img  
-          class="main__card__icon-fav" 
-          src="./images/bookmark pink.svg" 
-          alt="bookmark-icon"/>
-        </button>
-
-        <!------QUESTION------->
-
-        <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
-
-        <input
-          type="button"
-          class="main__card__button"
-          name="answer"
-          value="Show Answer"
-          data-js="button"
-        />
-
-        <!------ANSWER------->
-
-
-        <p class="main__card__answer hidden" data-js="answer">
-          Lorem, ipsum dolor.
-        </p>
-
-        <!------TAGS------->
-
-        <section class="tags index">
-          <ul>
-            <li>#html</li>
-            <li>#flexbox</li>
-            <li>#css</li>
-          </ul>
-        </section>
-      </section>
-
-      <!--------------------------------------------SECOND CARD-------------------->
-
-      <main class="main">
         <section class="main__card" data-js="card">
-  
-          <button  data-js="notBookmarked" class="bookMarkButton">
+          <!------BOOKMARK-BUTTON------->
+
+          <button class="bookMarkButton" data-js="notBookmarked">
             <img
-            class="main__card__icon"
-            src="./images/bookmark black.svg"
-            alt="bookmark icon"
-          />
-        </button>
-  
-          <button class="hidden bookMarkButton"
-            data-js="bookmarked">
-            <img  
-            class="main__card__icon-fav" 
-            src="./images/bookmark pink.svg" 
-            alt="bookmark-icon"/>
+              class="main__card__icon"
+              src="./images/bookmark black.svg"
+              alt="bookmark icon"
+            />
           </button>
-  
+
+          <button class="hidden bookMarkButton" data-js="bookmarked">
+            <img
+              class="main__card__icon-fav"
+              src="./images/bookmark pink.svg"
+              alt="bookmark-icon"
+            />
+          </button>
+
+          <!------QUESTION------->
+
           <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
-  
+
           <input
             type="button"
             class="main__card__button"
             name="answer"
             value="Show Answer"
-            data-js="button"
+            data-js="answerButton"
           />
-  
+
+          <!------ANSWER------->
+
           <p class="main__card__answer hidden" data-js="answer">
             Lorem, ipsum dolor.
           </p>
-  
+
+          <!------TAGS------->
+
           <section class="tags index">
             <ul>
               <li>#html</li>
@@ -119,30 +75,28 @@
             </ul>
           </section>
         </section>
- <main class="main">
-      <!--------------------------------------------THIRD CARD-------------------->
 
-     
+        <!--------------------------------------------SECOND CARD-------------------->
+
         <section class="main__card" data-js="card">
-  
-          <button  data-js="notBookmarked" class="bookMarkButton">
+          <button data-js="notBookmarked" class="bookMarkButton">
             <img
-            class="main__card__icon"
-            src="./images/bookmark black.svg"
-            alt="bookmark icon"
-          />
-        </button>
-  
-          <button class="bookMarkButton hidden"
-            data-js="bookmarked">
-            <img  
-            class="main__card__icon-fav" 
-            src="./images/bookmark pink.svg" 
-            alt="bookmark-icon"/>
+              class="main__card__icon"
+              src="./images/bookmark black.svg"
+              alt="bookmark icon"
+            />
           </button>
-  
+
+          <button class="hidden bookMarkButton" data-js="bookmarked">
+            <img
+              class="main__card__icon-fav"
+              src="./images/bookmark pink.svg"
+              alt="bookmark-icon"
+            />
+          </button>
+
           <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
-  
+
           <input
             type="button"
             class="main__card__button"
@@ -150,11 +104,11 @@
             value="Show Answer"
             data-js="button"
           />
-  
+
           <p class="main__card__answer hidden" data-js="answer">
             Lorem, ipsum dolor.
           </p>
-  
+
           <section class="tags index">
             <ul>
               <li>#html</li>
@@ -163,31 +117,92 @@
             </ul>
           </section>
         </section>
+
+        <!--------------------------------------------THIRD CARD-------------------->
+
+        <section class="main__card" data-js="card">
+          <button data-js="notBookmarked" class="bookMarkButton">
+            <img
+              class="main__card__icon"
+              src="./images/bookmark black.svg"
+              alt="bookmark icon"
+            />
+          </button>
+
+          <button class="bookMarkButton hidden" data-js="bookmarked">
+            <img
+              class="main__card__icon-fav"
+              src="./images/bookmark pink.svg"
+              alt="bookmark-icon"
+            />
+          </button>
+
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+
+      <!-------------BOOKMARKS-PAGE----------------------------------->
+
+      <div class="content hidden" data-js="bookmarks"></div>
+
+      <!-------------CREATE-PAGE----------------------------------->
+
+      <div class="content hidden" data-js="create"></div>
+
+      <!-------------PROFILE-PAGE----------------------------------->
+
+      <div class="content hidden" data-js="profile"></div>
     </main>
 
-    <footer>
-      <nav class="nav">
-        <ul class="nav__footer">
-          <li class="nav__footer__item current">
-            <a href="index.html"
-              ><img src="./images/icons8-home.svg" alt="Home"
-            /></a>
-          </li>
+    <nav class="nav">
+      <button class="nav__button nav__item current" data-js="nav-home">
+        <img class="nav-item" src="./images/icons8-home.svg" alt="Home" />
+      </button>
 
-          <li class="nav__footer__item">
-            <a href="bookmarks.html"
-              ><img src="./images/bookmark pink outline.svg"" alt="Bookmark"
-              /></a
-            >
-          </li>
+      <button class="nav__button nav__item" data-js="nav-create">
+        <img
+          style="padding-top: 4px"
+          class="nav-item"
+          src="./images/plus-square_2.svg"
+          alt="Add"
+        />
+      </button>
 
-          <li class="nav__footer__item">
-            <a href="user.html"
-              ><img src="./images/icons8-user-male.svg" alt="User"
-            /></a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
+      <button class="nav__button nav__item" data-js="nav-bookmark">
+        <img
+          class="nav-item"
+          src="./images/bookmark black.svg"
+          alt="Bookmark"
+        />
+      </button>
+
+      <button class="nav__button nav__item" data-js="nav-profile">
+        <img
+          class="nav-item"
+          src="./images/icons8-user-male.svg"
+          alt="Profile"
+        />
+      </button>
+    </nav>
   </body>
 </html>
