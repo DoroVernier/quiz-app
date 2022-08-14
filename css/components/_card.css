@@ -5,7 +5,10 @@
   width: 100%;
 }
 .main__card:first-child {
-  margin-top: 4rem;
+  margin-top: 2rem;
+}
+.main__card:last-child {
+  margin-bottom: 4rem;
 }
 .main__card {
   display: flex;
@@ -61,19 +64,15 @@
   position: absolute;
   height: 50px;
   width: 50px;
-  top: -20px;
+  top: -30px;
   right: 5px;
-}
-
-.hidden {
-  display: none;
 }
 
 @media screen and (min-width: 668px) {
   .main__card {
     width: 550px;
     height: 550px;
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
   .main__card__ button {
     font-size: 3rem;

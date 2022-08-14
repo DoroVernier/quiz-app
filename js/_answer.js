@@ -1,3 +1,4 @@
+//Hides and shows Answer when clicking the AnswerButton
 export function toggleAnswer() {
   const cards = document.querySelectorAll('[data-js="card"]');
   cards.forEach((card) => {
@@ -8,6 +9,8 @@ export function toggleAnswer() {
     });
   });
 }
+
+//Changes text on button from "Show Answer" to "Hide Answer"
 export function toggleButton() {
   const buttons = document.querySelectorAll('[data-js="button"]');
   buttons.forEach((button) => {

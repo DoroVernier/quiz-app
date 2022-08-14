@@ -2,7 +2,7 @@
   background-color: #fafa37;
   width: 350px;
   height: 3rem;
-  position: fixed;
+  position: sticky;
   top: 0;
   margin-bottom: 1rem;
   z-index: 1;

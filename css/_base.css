@@ -1,13 +1,12 @@
-
-*{
-    box-sizing: border-box;
-    margin: auto; 
+* {
+  box-sizing: border-box;
+  margin: auto;
 }
 
 body {
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    font-family: 'VT323', monospace;
-    padding: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "VT323", monospace;
+  padding: 10px;
 }
