@@ -44,9 +44,13 @@ img {
     margin-top: 2rem;
   }
   .nav__item {
-    height: 4rem;
+    height: 4.2rem;
   }
   img {
     height: 3.6rem;
+  }
+  .current {
+    height: 4rem;
+    border: 10px dashed #fafa37;
   }
 }
