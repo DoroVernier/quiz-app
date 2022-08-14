@@ -1,4 +1,4 @@
-export function toggleBookmark() {
+export default function toggleBookmark() {
   const cards = document.querySelectorAll("[data-js='card']");
   cards.forEach((card) => {
     const notBookmarked = card.querySelector("[data-js=notBookmarked]");

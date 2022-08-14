@@ -14,18 +14,18 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="./index.js" type="module" defer></script>
+    <script src="./js/script.js" type="module" defer></script>
   </head>
 
-  <body>
-    <header class="header">
-      <h1>Quiz-App</h1>
-    </header>
+  <header class="header">
+    <h1>Quiz-App</h1>
+  </header>
 
-    <main class="main">
+  <body>
+    <main>
       <!-------------HOMEPAGE----------------------------------->
 
-      <div class="content" data-js="home">
+      <div class="main" data-js="home">
         <!--------------------------------------------FIRST CARD-------------------->
 
         <section class="main__card" data-js="card">
@@ -51,12 +51,14 @@
 
           <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
 
+           <!------ANSWER-BUTTON------->
+
           <input
             type="button"
             class="main__card__button"
             name="answer"
             value="Show Answer"
-            data-js="answerButton"
+            data-js="button"
           />
 
           <!------ANSWER------->
@@ -160,19 +162,183 @@
           </section>
         </section>
       </div>
+     <!-------------BOOKMARKS-PAGE----------------------------------->
 
-      <!-------------BOOKMARKS-PAGE----------------------------------->
+<!-------------CREATE-PAGE----------------------------------->
 
-      <div class="content hidden" data-js="bookmarks"></div>
+<div class="main hidden" data-js="create">
+  <form action="#" method="POST">
+     <div class="main hidden" data-js="bookmarks">
+    <!--------------------------------------------FIRST CARD-------------------->
 
-      <!-------------CREATE-PAGE----------------------------------->
+    <section class="main__card" data-js="card">
+      <!------BOOKMARK-BUTTON------->
 
-      <div class="content hidden" data-js="create"></div>
+      <button class="bookMarkButton" data-js="bookmarked">
+        <img
+          class="main__card__icon-fav"
+          src="./images/bookmark pink.svg"
+          alt="bookmark-icon"
+        />
+      </button>
 
-      <!-------------PROFILE-PAGE----------------------------------->
+      <button class="bookMarkButton" data-js="notBookmarked">
+        <img
+          class="hidden main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"
+        />
+      </button>
 
-      <div class="content hidden" data-js="profile"></div>
-    </main>
+      <!------QUESTION------->
+
+      <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+      <input
+        type="button"
+        class="main__card__button"
+        name="answer"
+        value="Show Answer"
+        data-js="button"
+      />
+
+      <!------ANSWER------->
+
+      <p class="main__card__answer hidden" data-js="answer">
+        Lorem, ipsum dolor.
+      </p>
+
+      <!------TAGS------->
+
+      <section class="tags index">
+        <ul>
+          <li>#html</li>
+          <li>#flexbox</li>
+          <li>#css</li>
+        </ul>
+      </section>
+    </section>
+
+    <!--------------------------------------------SECOND CARD-------------------->
+
+    <section class="main__card" data-js="card">
+      <!------BOOKMARK-BUTTON------->
+
+      <button class="bookMarkButton" data-js="bookmarked">
+        <img
+          class="main__card__icon-fav"
+          src="./images/bookmark pink.svg"
+          alt="bookmark-icon"
+        />
+      </button>
+
+      <button class="bookMarkButton" data-js=" notBookmarked">
+        <img
+          class="hidden main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"
+        />
+      </button>
+
+      <!------QUESTION------->
+
+      <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+      <input
+        type="button"
+        class="main__card__button"
+        name="answer"
+        value="Show Answer"
+        data-js="button"
+      />
+
+      <!------ANSWER------->
+
+      <p class="main__card__answer hidden" data-js="answer">
+        Lorem, ipsum dolor.
+      </p>
+
+      <!------TAGS------->
+
+      <section class="tags index">
+        <ul>
+          <li>#html</li>
+          <li>#flexbox</li>
+          <li>#css</li>
+        </ul>
+      </section>
+    </section>
+    <!--------------------------------------------THIRD CARD-------------------->
+    <section class="main__card" data-js="card">
+      
+      <!------BOOKMARK-BUTTON------->
+
+      <button class="bookMarkButton" data-js="bookmarked">
+        <img
+          class="main__card__icon-fav"
+          src="./images/bookmark pink.svg"
+          alt="bookmark-icon"
+        />
+      </button>
+
+      <button class="bookMarkButton" data-js=" notBookmarked">
+        <img
+          class="hidden main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"
+        />
+      </button>
+
+      <!------QUESTION------->
+
+      <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+      <input
+        type="button"
+        class="main__card__button"
+        name="answer"
+        value="Show Answer"
+        data-js="button"
+      />
+
+      <!------ANSWER------->
+
+      <p class="main__card__answer hidden" data-js="answer">
+        Lorem, ipsum dolor.
+      </p>
+
+      <!------TAGS------->
+
+      <section class="tags index">
+        <ul>
+          <li>#html</li>
+          <li>#flexbox</li>
+          <li>#css</li>
+        </ul>
+      </section>
+    </section>
+  </div>
+
+ <label for="question">Your Question:</label>
+    <textarea name="question" cols="20" rows="5"></textarea>
+
+    <label for="answer">Your Answer:</label>
+    <textarea name="anwswer" cols="20" rows="5"></textarea>
+
+    <label for="tags">Tags:</label>
+    <input name="tags" type="text" id="tags" />
+    <p>- add the tags separated by comma -</p>
+
+    <button>Submit</button>
+  </form>
+</div>
+
+<!-------------PROFILE-PAGE----------------------------------->
+
+<!--
+<div class="main hidden" data-js="profile"></div>
+-->
+<!-------------NAVIGATION-BAR----------------------------------->
 
     <nav class="nav">
       <button class="nav__button nav__item current" data-js="nav-home">
@@ -205,4 +371,5 @@
       </button>
     </nav>
   </body>
+
 </html>
