@@ -2,12 +2,12 @@ export function navigation() {
   const homePage = document.querySelector("[data-js=home");
   const createPage = document.querySelector("[data-js=create");
   const bookmarkPage = document.querySelector("[data-js=bookmarks");
-  //const profilePage = document.querySelector('[data-js=profile');
+  const profilePage = document.querySelector("[data-js=profile");
 
   const homeNav = document.querySelector("[data-js='nav-home']");
   const createNav = document.querySelector("[data-js='nav-create']");
   const bookmarkNav = document.querySelector("[data-js='nav-bookmark']");
-  //const profileNav = document.querySelector('[data-js="nav-profile"]');
+  const profileNav = document.querySelector('[data-js="nav-profile"]');
 
   homeNav.addEventListener("click", () => {
     homePage.classList.remove("hidden");
@@ -19,7 +19,7 @@ export function navigation() {
   createNav.addEventListener("click", () => {
     createPage.classList.remove("hidden");
     homePage.classList.add("hidden");
-    bookmakrPage.classList.add("hidden");
+    bookmarkPage.classList.add("hidden");
     profilePage.classList.add("hidden");
   });
 
@@ -30,12 +30,12 @@ export function navigation() {
     profilePage.classList.add("hidden");
   });
 
-  /* profileNav.addEventListener("click", () => {
+  profileNav.addEventListener("click", () => {
     profilePage.classList.remove("hidden");
     createPage.classList.add("hidden");
     homePage.classList.add("hidden");
     bookmarkPage.classList.add("hidden");
-  });*/
+  });
 
   /*const pages = [homePage, createPage, bookmarkPage];
 

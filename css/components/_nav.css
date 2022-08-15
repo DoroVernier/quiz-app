@@ -52,5 +52,6 @@ img {
   .current {
     height: 4rem;
     border: 10px dashed #fafa37;
+    margin: 0;
   }
 }

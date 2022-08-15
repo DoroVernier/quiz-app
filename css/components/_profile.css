@@ -1,0 +1,45 @@
+.profile {
+  width: 350px;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile__pic {
+  height: 5rem;
+  border: 4px solid black;
+  justify-self: start;
+  margin: 0;
+}
+.profile__userName {
+  font-size: 2rem;
+}
+
+.profile__about {
+  grid-column: span 2;
+  font-size: 1.5rem;
+}
+.profile___about label {
+  margin-bottom: 1rem;
+}
+
+.profile__about-area {
+  width: 100%;
+  border: 4px solid black;
+}
+
+.profile__counter {
+  background-color: white;
+  font-size: 2rem;
+  height: 3rem;
+  justify-self: stretch;
+  margin: 0;
+  border: 4px solid black;
+}
+
+.profile__counter-img {
+  height: 2rem;
+}
