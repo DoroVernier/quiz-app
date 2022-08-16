@@ -9,11 +9,21 @@ export function navigation() {
   const bookmarkNav = document.querySelector("[data-js='nav-bookmark']");
   const profileNav = document.querySelector('[data-js="nav-profile"]');
 
+  const homeButtonBorder = document.querySelector("[data-js=nav-home]");
+  const createButtonBorder = document.querySelector("[data-js=nav-create]");
+  const bookmarkButtonBorder = document.querySelector("[data-js=nav-bookmark]");
+  const profileButtonBorder = document.querySelector("[data-js=nav-profile]");
+
   homeNav.addEventListener("click", () => {
     homePage.classList.remove("hidden");
     createPage.classList.add("hidden");
     bookmarkPage.classList.add("hidden");
     profilePage.classList.add("hidden");
+
+    homeButtonBorder.classList.add("current");
+    createButtonBorder.classList.remove("current");
+    bookmarkButtonBorder.classList.remove("current");
+    profileButtonBorder.classList.remove("current");
   });
 
   createNav.addEventListener("click", () => {
@@ -21,6 +31,11 @@ export function navigation() {
     homePage.classList.add("hidden");
     bookmarkPage.classList.add("hidden");
     profilePage.classList.add("hidden");
+
+    createButtonBorder.classList.add("current");
+    homeButtonBorder.classList.remove("current");
+    bookmarkButtonBorder.classList.remove("current");
+    profileButtonBorder.classList.remove("current");
   });
 
   bookmarkNav.addEventListener("click", () => {
@@ -28,6 +43,11 @@ export function navigation() {
     createPage.classList.add("hidden");
     homePage.classList.add("hidden");
     profilePage.classList.add("hidden");
+
+    bookmarkButtonBorder.classList.add("current");
+    createButtonBorder.classList.remove("current");
+    homeButtonBorder.classList.remove("current");
+    profileButtonBorder.classList.remove("current");
   });
 
   profileNav.addEventListener("click", () => {
@@ -35,9 +55,14 @@ export function navigation() {
     createPage.classList.add("hidden");
     homePage.classList.add("hidden");
     bookmarkPage.classList.add("hidden");
+
+    profileButtonBorder.classList.add("current");
+    bookmarkButtonBorder.classList.remove("current");
+    createButtonBorder.classList.remove("current");
+    homeButtonBorder.classList.remove("current");
   });
 
-  /*const pages = [homePage, createPage, bookmarkPage];
+  /* const pages = [homePage, createPage, bookmarkPage, profilePage];
 
   homeNav.addEventListener("click", () => {
     pages.forEach((page) => {
@@ -67,11 +92,11 @@ export function navigation() {
   });
 
   profileNav.addEventListener("click", () => {
-    pages.forEach((page) => { 
-      page.classList.add("hidden"); 
-      page.classList.remove("current"); 
-});
-    profilePage.classList.remove("hidden"); 
-    profilePage.classList.add("current"); 
-});   */
+    pages.forEach((page) => {
+      page.classList.add("hidden");
+      page.classList.remove("current");
+    });
+    profilePage.classList.remove("hidden");
+    profilePage.classList.add("current");
+  });*/
 }
