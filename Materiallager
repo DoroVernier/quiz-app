@@ -1,0 +1,293 @@
+<!--KARTEN VON MAIN-->
+<!--------------------------------------------FIRST CARD-------------------->
+
+       <!-- <section class="main__card" data-js="card">
+
+          <----BOOKMARK-BUTTON------->
+
+          <button class="bookMarkButton" data-js="notBookmarked">
+            <img
+              class="main__card__icon"
+              src="./images/bookmark black.svg"
+              alt="bookmark icon"
+            />
+          </button>
+
+          <button class="hidden bookMarkButton" data-js="bookmarked">
+            <img
+              class="main__card__icon-fav"
+              src="./images/bookmark pink.svg"
+              alt="bookmark-icon"
+            />
+          </button>
+
+          <!------QUESTION------->
+
+          <p class="main__card__question" data-js="question" >Lorem ipsum dolor sit amet?</p>
+
+           <!------ANSWER-BUTTON------->
+
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+
+          <!------ANSWER------->
+
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+
+          <!------TAGS------->
+
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
+        </section> 
+
+        <!--------------------------------------------SECOND CARD-------------------->
+
+        <section class="main__card" data-js="card">
+          <button data-js="notBookmarked" class="bookMarkButton">
+            <img
+              class="main__card__icon"
+              src="./images/bookmark black.svg"
+              alt="bookmark icon"
+            />
+          </button>
+
+          <button class="hidden bookMarkButton" data-js="bookmarked">
+            <img
+              class="main__card__icon-fav"
+              src="./images/bookmark pink.svg"
+              alt="bookmark-icon"
+            />
+          </button>
+
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
+        </section>
+
+        <!--------------------------------------------THIRD CARD-------------------->
+
+        <section class="main__card" data-js="card">
+          <button data-js="notBookmarked" class="bookMarkButton">
+            <img
+              class="main__card__icon"
+              src="./images/bookmark black.svg"
+              alt="bookmark icon"
+            />
+          </button>
+
+          <button class="bookMarkButton hidden" data-js="bookmarked">
+            <img
+              class="main__card__icon-fav"
+              src="./images/bookmark pink.svg"
+              alt="bookmark-icon"
+            />
+          </button>
+
+          <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+          <input
+            type="button"
+            class="main__card__button"
+            name="answer"
+            value="Show Answer"
+            data-js="button"
+          />
+
+          <p class="main__card__answer hidden" data-js="answer">
+            Lorem, ipsum dolor.
+          </p>
+
+          <section class="tags index">
+            <ul>
+              <li>#html</li>
+              <li>#flexbox</li>
+              <li>#css</li>
+            </ul>
+          </section>
+        </section>
+      
+
+<!--KARTEN VON BOOKMARK-->
+      <!--------------------------------------------FIRST CARD-------------------->
+     
+      <section class="main__card" data-js="card">
+  
+        <!------BOOKMARK-BUTTON------->
+
+        <button class="bookMarkButton"
+          data-js="bookmarked">
+          <img  
+          class="main__card__icon-fav" 
+          src="./images/bookmark pink.svg" 
+          alt="bookmark-icon"/>
+        </button>
+
+       <button class="bookMarkButton"
+         data-js="notBookmarked"> 
+          <img
+          class="hidden main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"/>
+        </button>
+
+        <!------QUESTION------->
+
+        <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+        <input
+          type="button"
+          class="main__card__button"
+          name="answer"
+          value="Show Answer"
+          data-js="button"
+        />
+
+        <!------ANSWER------->
+
+
+        <p class="main__card__answer hidden" data-js="answer">
+          Lorem, ipsum dolor.
+        </p>
+
+        <!------TAGS------->
+
+        <section class="tags index">
+          <ul>
+            <li>#html</li>
+            <li>#flexbox</li>
+            <li>#css</li>
+          </ul>
+        </section>
+      </section>
+
+      <!--------------------------------------------SECOND CARD-------------------->
+
+      <section class="main__card" data-js="card">
+
+        <!------BOOKMARK-BUTTON------->
+
+        <button class="bookMarkButton"
+          data-js="bookmarked">
+          <img  
+          class="main__card__icon-fav" 
+          src="./images/bookmark pink.svg" 
+          alt="bookmark-icon"/>
+        </button>
+
+        <button  class="bookMarkButton"
+          data-js="notBookmarked" >
+          <img
+          class="hidden main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"/>
+        </button>
+
+        <!------QUESTION------->
+
+        <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+        <input
+          type="button"
+          class="main__card__button"
+          name="answer"
+          value="Show Answer"
+          data-js="button"
+        />
+
+        <!------ANSWER------->
+
+
+        <p class="main__card__answer hidden" data-js="answer">
+          Lorem, ipsum dolor.
+        </p>
+
+        <!------TAGS------->
+
+        <section class="tags index">
+          <ul>
+            <li>#html</li>
+            <li>#flexbox</li>
+            <li>#css</li>
+          </ul>
+        </section>
+      </section>
+      <!--------------------------------------------THIRD CARD-------------------->
+      <section class="main__card" data-js="card">
+
+        <!------BOOKMARK-BUTTON------->
+
+        <button class="bookMarkButton"
+          data-js="bookmarked">
+          <img  
+          class="main__card__icon-fav" 
+          src="./images/bookmark pink.svg" 
+          alt="bookmark-icon"/>
+        </button>
+
+        <button  class="bookMarkButton"
+          data-js="notBookmarked" >
+          <img
+          class="hidden main__card__icon"
+          src="./images/bookmark black.svg"
+          alt="bookmark icon"/>
+        </button>
+
+        <!------QUESTION------->
+
+        <p class="main__card__question">Lorem ipsum dolor sit amet?</p>
+
+        <input
+          type="button"
+          class="main__card__button"
+          name="answer"
+          value="Show Answer"
+          data-js="button"
+        />
+
+        <!------ANSWER------->
+
+
+        <p class="main__card__answer hidden" data-js="answer">
+          Lorem, ipsum dolor.
+        </p>
+
+        <!------TAGS------->
+
+        <section class="tags index">
+          <ul>
+            <li>#html</li>
+            <li>#flexbox</li>
+            <li>#css</li>
+          </ul>
+        </section>
+      </section>
